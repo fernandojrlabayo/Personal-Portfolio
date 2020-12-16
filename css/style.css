@@ -670,6 +670,9 @@ width: 100%;
 		top: 50%;
 		transform: translate(-10%,-50%);
 	}
+	.name-model{
+		height:400px;
+	}
 	.about-model img{
 		height:400px;
 	}
@@ -699,6 +702,10 @@ width: 100%;
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%,-50%);
+	}
+
+	.name-model{
+		display: none;
 	}
 	.about-model{
 		display: none;
