@@ -62,9 +62,6 @@ nav{
         color: #6c707c;
         font-size: 12px;
 }
-.lang{
-	color:#292929;
-}
 
 .logo{
 
@@ -317,7 +314,7 @@ nav{
     padding: 0px;
     
 }
-    .s-heading p{
+.s-heading p{
     color:rgba(255,255,255,0.30);
     font-size: 1rem;
     margin: 0px;
@@ -481,6 +478,281 @@ nav{
 .p-box:hover .overlay-text{
 	display: flex;
 	
+}
+
+#skills{
+	width: 100%;
+	height: 100vh;
+	background-color: #0F0F0F;
+	box-sizing: border-box;
+	font-family: calibri;
+	display: flex;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	justify-content: center;
+}
+.skills{
+
+	font-family: calibri;
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 2px solid;
+	border-radius: 10px;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+	width: 80px;
+	height: 30px;
+	position: relative;
+	top: 5px;
+	left: 700px;
+	padding-top: 10px;
+}
+
+
+.frontend {
+		width: 50%;
+		height: 80vh;
+		text-align: center;
+		margin: 100px 2px 10px 10px;
+		background-color: rgba(23,209,172,0.80);
+		color: #FFFFFF;
+		overflow: hidden;
+		position: relative;
+		left: 0;
+
+}
+.frontend h1{
+	border: 2px solid black;
+	width: 150px;
+	border-radius: 2px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #000000;
+
+}
+.backend {
+	width: 50%;
+	height: 80vh;
+	text-align: center;
+	margin: 100px 2px 10px 10px;
+	background-color: rgba(23,209,172,0.80);
+	color: #FFFFFF;
+	overflow: hidden;
+	position: relative;
+	left: 0;
+
+}
+.backend h1{
+	border: 2px solid black;
+	width: 150px;
+	border-radius: 2px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #000000;
+
+}
+.html-skill {
+	width: 20px;
+	height: 30px;
+	background:linear-gradient(to right, yellow,orange);
+	transition: width 2s;
+	position: relative;
+	top: 20%;
+	left: 0px;
+	padding-left: 10px;
+	padding-top: 5px;
+	
+	
+  }
+.html-skill p{
+	color: #000000;
+	float: right;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin:auto
+}
+  
+.html-skill:hover {
+	width: 250px;
+  }
+  .css-skill {
+	width: 20px;
+	height: 30px;
+	background:linear-gradient(to right, yellow,orange);
+	transition: width 2s;
+	position: relative;
+	top: 40%;
+	left: 0px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.css-skill p{
+	color: #000000;
+	float: right;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin:auto
+}
+  
+.css-skill:hover {
+	width: 250px;
+  }
+  .javascript-skill {
+	width: 20px;
+	height: 30px;
+	background:linear-gradient(to right, yellow,orange);
+	transition: width 2s;
+	position: relative;
+	top: 60%;
+	left: 0px;
+	padding-left: 10px;
+	padding-top: 5px;
+  }
+  .javascript-skill p{
+	color: #000000;
+	float: right;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin:auto
+}
+  
+.javascript-skill:hover {
+	width: 250px;
+  }
+
+.backend {
+		width: 50%;
+		height: 80vh;
+		text-align: center;
+		margin: 10px;
+		background-color: rgba(23,209,172,0.80);
+		color: #FFFFFF;
+		overflow: hidden;
+		margin: 100px 10px 10px 2px;
+}
+
+.frontend {
+	width: 50%;
+	height: 80vh;
+	text-align: center;
+	margin: 100px 2px 10px 10px;
+	background-color: rgba(23,209,172,0.80);
+	color: #FFFFFF;
+	overflow: hidden;
+	position: relative;
+	left: 0;
+
+}
+.frontend h1{
+border: 2px solid black;
+width: 150px;
+border-radius: 2px;
+margin: auto;
+margin-top: 20px;
+border-radius: 5px;
+background-color: #000000;
+
+}
+.backend {
+width: 50%;
+height: 80vh;
+text-align: center;
+margin: 100px 2px 10px 10px;
+background-color: rgba(23,209,172,0.80);
+color: #FFFFFF;
+overflow: hidden;
+position: relative;
+left: 0;
+
+}
+.backend h1{
+border: 2px solid black;
+width: 150px;
+border-radius: 2px;
+margin: auto;
+margin-top: 20px;
+border-radius: 5px;
+background-color: #000000;
+
+}
+.Java-skill {
+width: 20px;
+height: 30px;
+background:linear-gradient(to right, yellow,orange);
+transition: width 2s;
+position: relative;
+top: 20%;
+left: 0px;
+padding-left: 10px;
+padding-top: 5px;
+
+}
+.Java-skill p{
+color: #000000;
+float: right;
+text-align: right;
+padding-left: 10px;
+padding-right: 5px;
+margin:auto
+}
+
+.Java-skill:hover {
+width: 250px;
+}
+.Phyton-skill {
+width: 20px;
+height: 30px;
+background:linear-gradient(to right, yellow,orange);
+transition: width 2s;
+position: relative;
+top: 40%;
+left: 0px;
+padding-left: 10px;
+padding-top: 5px;
+}
+.Phyton-skill p{
+color: #000000;
+float: right;
+text-align: right;
+padding-left: 10px;
+padding-right: 5px;
+margin:auto
+}
+
+.Phyton-skill:hover {
+width: 250px;
+}
+.C-skill {
+width: 20px;
+height: 30px;
+background:linear-gradient(to right, yellow,orange);
+transition: width 2s;
+position: relative;
+top: 60%;
+left: 0px;
+padding-left: 10px;
+padding-top: 5px;
+}
+.C-skill p{
+color: #000000;
+float: right;
+text-align: right;
+padding-left: 10px;
+padding-right: 5px;
+margin:auto
+}
+
+.C-skill:hover {
+width: 250px;
 }
 #contact-btn{
 	width: 100%;
